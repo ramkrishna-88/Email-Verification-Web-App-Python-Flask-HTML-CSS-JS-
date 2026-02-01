@@ -66,24 +66,24 @@ email-verification/
 
 - Clone the Repository
 
-    git clone https://github.com/your-username/email-verification.git
-    cd email-verification
+  - git clone https://github.com/your-username/email-verification.git
+  - cd email-verification
 
 - Backend Setup (Flask)
 
   - Create Virtual Environment (Optional)
-    python -m venv venv
-    source venv/bin/activate     # Mac/Linux
-    venv\Scripts\activate        # Windows
+    - python -m venv venv
+    - source venv/bin/activate     # Mac/Linux
+    - venv\Scripts\activate        # Windows
 
   - Install Dependencies
-    pip install flask flask-cors
+    - pip install flask flask-cors
 
   - Run Flask Server
-    python app.py
+    - python app.py
 
   - Backend will start at: 
-    http://127.0.0.1:5000
+    - http://127.0.0.1:5000
 
 - Frontend Setup 
   - Open index.html in your browser
@@ -97,10 +97,10 @@ email-verification/
     - application/x-www-form-urlencoded
 - Parameter
   - Key	
-    email
+    - email
 
   - Description
-    Email to validate
+    - Email to validate
 
 - Example Request (JS)
 
@@ -130,13 +130,13 @@ email-verification/
 ---
 <h2><a class="anchor" id="Email Validation Rules"></a>Email Validation Rules</h2>
 
-✔ Minimum length 6 characters
-✔ Must start with an alphabet
-✔ Must contain exactly one @
-✔ Must contain . at -3 or -4 position
-✔ No spaces allowed
-✔ No uppercase letters allowed
-✔ Allowed characters:
+- Minimum length 6 characters
+- Must start with an alphabet
+- Must contain exactly one @
+- Must contain . at -3 or -4 position
+- No spaces allowed
+- No uppercase letters allowed
+- Allowed characters:
   - lowercase letters
   - numbers
   - _ . @
